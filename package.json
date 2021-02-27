@@ -1,0 +1,24 @@
+{
+  "name": "octohook-docs",
+  "version": "1.0.0",
+  "description": "Documentation for octohook.com",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev",
+    "build": "vuepress build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/octohk/docs.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/octohk/docs/issues"
+  },
+  "homepage": "https://github.com/octohk/docs#readme",
+  "devDependencies": {
+    "vuepress": "^1.7.1",
+    "vuepress-plugin-seo": "^0.1.4"
+  }
+}
