@@ -22,14 +22,25 @@ module.exports = {
                 collapsable: false,
                 children: [
                     ['/', 'Introduction'],
+                    '/getting-started/teams',
                     '/getting-started/sources',
+                    '/getting-started/workflows',
+                    '/getting-started/integrations',
+                ],
+            },
+            {
+                title: 'Workflow Nodes',
+                collapsable: true,
+                children: [
+                    '/workflows/fill-template',
                 ],
             },
             {
                 title: 'Integrations',
                 collapsable: true,
                 children: [
-                    '/integrations/intro',
+                    '/integrations/github',
+                    '/integrations/segment',
                     '/integrations/sentry',
                 ],
             },
