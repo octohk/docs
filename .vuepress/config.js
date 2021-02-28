@@ -1,13 +1,11 @@
-var emoji = 'https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/google/274/octopus_1f419.png'
-
 module.exports = {
     title: 'Octohook documentation',
     description: 'Documentation for octohook.com',
     head: [
-        ['link', { rel: 'icon', href: emoji }],
+        ['link', { rel: 'icon', href: '/logo.png' }],
     ],
     themeConfig: {
-        logo: emoji,
+        logo: '/logo.png',
         lastUpdated: 'Last Updated',
         docsRepo: 'octohk/docs',
         editLinks: true,
