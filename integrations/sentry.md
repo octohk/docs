@@ -15,7 +15,7 @@ of the webhook.
 
 You'll find the out-of-the-box support using the "Platform Verifier"
 and "Platform Parser" nodes and selecting Sentry from the platform
-down. In the "Platform Verifier" node we accept and option 'secret'
+dropdown. In the "Platform Verifier" node we accept and option 'secret'
 input. When you provide a secret with will automagically generate and
 verify the hash based on this secret, without a secret we _only_ check
 that the expected Sentry-based headers are present.
