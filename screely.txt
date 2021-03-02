@@ -1,0 +1,10 @@
+Shadow: ON
+Dark Mode: ON
+Plain Window
+Regular
+Color: #fff
+Vertical: 70px
+Horizontal: 50px
+
+Image width: 1400px
+Height to suit.
