@@ -16,7 +16,7 @@ module.exports = {
         ],
         sidebar: [
             {
-                title: 'Getting Started',
+                title: 'Getting Started [WIP]',
                 collapsable: false,
                 children: [
                     ['/', 'Introduction'],
@@ -27,14 +27,14 @@ module.exports = {
                 ],
             },
             {
-                title: 'Workflow Nodes',
+                title: 'Workflow Nodes [WIP]',
                 collapsable: true,
                 children: [
                     '/workflows/fill-template',
                 ],
             },
             {
-                title: 'Integrations',
+                title: 'Integrations [WIP]',
                 collapsable: true,
                 children: [
                     '/integrations/github',
